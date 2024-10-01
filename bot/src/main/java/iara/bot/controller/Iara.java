@@ -6,8 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Iara {
 
-    @GetMapping("/")
-   public String Hello(){
-        return "bom dia";
+    @GetMapping("/BotIARA")
+    public void  BOtIara(){
    } 
 }
