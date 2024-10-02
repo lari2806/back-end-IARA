@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 
 public class IaraFileReader {
     
@@ -29,6 +30,12 @@ public class IaraFileReader {
             e.printStackTrace();
         }
     }
+
+    @Bean
+     public IaraFileReader iaraFileReader() {
+         // instantiate and configure MyBean obj
+         return new IaraFileReader(FILE_PATH);
+     }
     
   
 
