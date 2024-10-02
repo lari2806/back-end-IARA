@@ -13,9 +13,9 @@
     </parent>
     
     <groupId>dio</groupId>
-    <artifactId>my-first-web-api</artifactId>
+    <artifactId>via-cep</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>my-first-web-api</name>
+    <name>via-cep</name>
     <description>Demo project for Spring Boot</description>
     
     <properties>
