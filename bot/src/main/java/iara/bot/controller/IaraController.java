@@ -6,17 +6,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import iara.bot.util.IaraFileReader;
+import io.swagger.v3.oas.annotations.parameters.RequestBody;
 
 @RestController
 @RequestMapping("mensagens")
 public class IaraController{
 
     @Autowired
-    private IaraFileReader IaraFileReader;
+    private IaraFileReader iaraFileReader;
 
     @PostMapping("/")
-    public void enviarMensagem(String mensagem){
-        System.out.println("Bom dia");
+    public String enviarMensagem(@RequestBody String mensagem){
+        String resposta = iaraFileReader.leitorIara(mensagem);
+        return resposta;
     }
 
 }
