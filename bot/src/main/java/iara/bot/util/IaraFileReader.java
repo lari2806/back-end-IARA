@@ -5,14 +5,15 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
+@Component
 public class IaraFileReader {
     
-    @Autowired
+    @Value("mensagens.txt")
     private String FILE_PATH;
 
-    @Autowired
     public IaraFileReader(String FILE_PATH){
         this.FILE_PATH = FILE_PATH;
     }
@@ -33,13 +34,5 @@ public class IaraFileReader {
         }
         return "tudo correto";
     }
-
-    @Bean
-     public IaraFileReader iaraFileReader() {
-         // instantiate and configure MyBean obj
-         return new IaraFileReader(FILE_PATH);
-     }
-    
   
-
 }

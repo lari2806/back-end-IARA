@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 import iara.bot.util.IaraFileReader;
 
 @RestController
-@RequestMapping("mensagens ")
+@RequestMapping("mensagens")
 public class IaraController{
 
     @Autowired
-    IaraFileReader IaraFileReader;
+    private IaraFileReader IaraFileReader;
 
     @PostMapping("/")
     public void enviarMensagem(String mensagem){
