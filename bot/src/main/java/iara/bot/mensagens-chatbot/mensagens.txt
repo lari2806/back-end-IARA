@@ -24,7 +24,6 @@ Iara: Até mais! Volte sempre que precisar.
 
 
 #emergencia
-
 user: preciso de ajuda
 Iara: Claro! Estou aqui para ajudar. Qual é a sua dúvida?
 
@@ -37,3 +36,9 @@ Iara: Para resetar sua senha, acesse a página de recuperação de senha e siga 
 user: onde encontro o suporte técnico?
 Iara: Você pode encontrar o suporte técnico no nosso site, na seção de "Contato".
 
+#ajuda
+user: locais de apoio
+iara: 
+
+user: gostaria de saber sobre a lei 1234
+iara: a lei 1234...
