@@ -14,6 +14,7 @@ public class IaraFileReader {
     @Value("mensagens.txt")
     private String FILE_PATH;
 
+    @Autowired
     public IaraFileReader(String FILE_PATH){
         this.FILE_PATH = FILE_PATH;
     }
