@@ -9,7 +9,7 @@ public class IaraController{
 
     @PostMapping("/")
     public void enviarMensagem(String mensagem){
-        System.out.println("Bom dia");
+        System.out.println("Bom dia");     
     }
 
 }
