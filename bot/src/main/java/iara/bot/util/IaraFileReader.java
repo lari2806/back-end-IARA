@@ -25,7 +25,7 @@ public class IaraFileReader {
         while(reader.hasNextLine()){
             String linha = reader.nextLine();
 
-            if (linha.startsWith("user:") && linha.contains(entradaUsuario)) {
+            if (linha.startsWith("user:") && linha.toLowerCase().contains(entradaUsuario)) {
                 if (reader.hasNextLine()) {
                     String resposta = reader.nextLine();
                     return resposta;
@@ -33,7 +33,7 @@ public class IaraFileReader {
             }
         }   
         reader.close(); 
-        }catch(FileNotFoundException e){
+        }catch(FileNotFoundException e){    
             System.out.println("Um erro ocorreu.");
             e.printStackTrace();
             
