@@ -1,6 +1,6 @@
 # Comprimentos
 
-user: ola
+user: Ola
 Iara: Ola! Eu sou o Iara. Como posso ajudar você hoje?
 
 user: bom dia
