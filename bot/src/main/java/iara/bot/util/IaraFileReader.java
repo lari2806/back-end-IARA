@@ -26,7 +26,10 @@ public class IaraFileReader {
             String linha = reader.nextLine();
 
             if (linha.startsWith("user:") && linha.contains(entradaUsuario)) {
-                return linha;
+                if (reader.hasNextLine()) {
+                    String resposta = reader.nextLine();
+                    return resposta;
+                }
             }
         }   
         reader.close(); 
