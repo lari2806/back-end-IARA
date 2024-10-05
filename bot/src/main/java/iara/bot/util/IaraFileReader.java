@@ -15,7 +15,7 @@ public class IaraFileReader {
     private String FILE_PATH;
     
 
-    public String leitorIara(String mensagem){
+    public String leitorIara(String entradaUsuario){
         File file = new File(FILE_PATH);
 
         System.out.println("Caminho do arquivo " + FILE_PATH);
@@ -25,7 +25,7 @@ public class IaraFileReader {
         while(reader.hasNextLine()){
             String linha = reader.nextLine();
 
-            if (linha.startsWith("user:") && linha.contains(mensagem)) {
+            if (linha.startsWith("user:") && linha.contains(entradaUsuario)) {
                 return linha;
             }
         }   
