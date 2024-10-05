@@ -7,23 +7,27 @@ import java.util.Scanner;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+
 @Component
 public class IaraFileReader {
     
-    @Value("C:\\Users\\melio\\Documents\\projeto-iara\\back-end-IARA\\bot\\src\\main\\java\\iara\\bot\\mensagens-chatbot\\mensagens.txt")
+    @Value("bot\\src\\main\\java\\iara\\bot\\mensagens-chatbot\\mensagens.txt")
     private String FILE_PATH;
+    
 
-    public IaraFileReader(String FILE_PATH){
-        this.FILE_PATH = FILE_PATH;
-    }
-
-    public String leitorIara(String entradaUsuario){
-        try{
+    public String leitorIara(String mensagem){
         File file = new File(FILE_PATH);
-        Scanner reader = new Scanner(file);
+
+        System.out.println("Caminho do arquivo " + FILE_PATH);
+
+        try(Scanner reader = new Scanner(file);){
+        
         while(reader.hasNextLine()){
             String linha = reader.nextLine();
-            return linha;
+
+            if (linha.startsWith("user:") && linha.contains(mensagem)) {
+                return linha;
+            }
         }   
         reader.close(); 
         }catch(FileNotFoundException e){
@@ -31,6 +35,6 @@ public class IaraFileReader {
             e.printStackTrace();
             
         }
-        return "tudo correto";
+        return "entrada invalida";
     }
 }
