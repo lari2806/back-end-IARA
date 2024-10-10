@@ -19,7 +19,7 @@ public class IaraController{
 
     @PostMapping("/")
     public String enviarMensagem(@RequestBody MensagemModel mensagemModel){
-        String mensagem = mensagemModel.getMensagem();
+        String mensagem = mensagemModel.getMensagem().toLowerCase();
         System.out.println(mensagem);
         String resposta = iaraFileReader.leitorIara(mensagem);
         return resposta;

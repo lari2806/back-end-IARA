@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class IaraFileReader {
     
-    @Value("bot\\src\\main\\java\\iara\\bot\\mensagens-chatbot\\mensagens.txt")
+    @Value("bot/src/main/java/iara/bot/mensagens-chatbot/mensagens.txt")
     private String FILE_PATH;
     
 
@@ -21,7 +21,7 @@ public class IaraFileReader {
         System.out.println("Caminho do arquivo " + FILE_PATH);
 
         try(Scanner reader = new Scanner(file);){
-        
+
         while(reader.hasNextLine()){
             String linha = reader.nextLine();
 
