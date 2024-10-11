@@ -99,7 +99,6 @@ Iara: A lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e 
 user: Você pode me explicar a Lei Maria da Penha?
 Iara: Claro, Iara: A lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que voce deseja por gentileza.
 
-
 user: Quais são os direitos garantidos pela Lei Maria da Penha?
 Iara: Nesta lei há algumas medidas protetivas, sendo elas o afastamento do agressor do lar, a proibição de contato, a transferência da vítima e de seus dependentes a um abrigo especializado ou a inclusão em programa oficial de proteção.
 
