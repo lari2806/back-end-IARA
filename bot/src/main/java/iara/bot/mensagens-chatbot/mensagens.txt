@@ -1,5 +1,4 @@
 # Comprimentos
-
 user: Ola
 Iara: Ola! Eu sou o Iara. Como posso ajudar você hoje?
 
@@ -45,6 +44,33 @@ Iara: meu nome e Iara, sou um sistema que tem o intuito de ajudar e apoiar pesso
 user: Tudo bem?
 Iara: estou bem e voce?
 
+### duvidas
+user: Quais sao as leis mais conhecidas?
+Iara: A lei Maria da Penha...
+
+
+
+### Leis
+
+# Lei Maria da Penha 
+
+user: gostaria de saber sobre a lei Maria da Penha
+Iara: Claro, a lei 11.340 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que voce deseja por gentileza.
+
+user: gostaria de saber sobre a lei 11.340
+Iara: Claro, a lei 11.340 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que voce deseja por gentileza.
+
+user: fale sobre a lei Maria da Penha
+Iara: Claro, a lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que voce deseja por gentileza.
+
+user: fale sobre a lei 11.340
+Iara: Claro, a lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que voce deseja por gentileza.
+
+user: tenho duvidas sobre a lei Maria da Penha
+Iara: A lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que voce deseja por gentileza.
+
+
+
 #emergencia
 user: Preciso de ajuda
 Iara: Claro! Estou aqui para ajudar. Qual é a sua dúvida?
@@ -59,8 +85,13 @@ user: Onde encontro o suporte técnico?
 Iara: Voce pode encontrar o suporte técnico no nosso site, na seção de "Contato".
 
 #ajuda
+<<<<<<< HEAD
 user: Locais de apoio
 Iara: Não possuo essas informações ainda.
 
 user: gostaria de saber sobre a lei 1234
 Iara: a lei 1234...
+=======
+user: locais de apoio
+Iara: 
+>>>>>>> 5ae1063695b7b7c3ef03384c9de1ace140c73a15
