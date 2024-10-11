@@ -85,13 +85,13 @@ user: Onde encontro o suporte técnico?
 Iara: Voce pode encontrar o suporte técnico no nosso site, na seção de "Contato".
 
 #ajuda
-<<<<<<< HEAD
+
 user: Locais de apoio
 Iara: Não possuo essas informações ainda.
 
 user: gostaria de saber sobre a lei 1234
 Iara: a lei 1234...
-=======
+
 user: locais de apoio
 Iara: 
->>>>>>> 5ae1063695b7b7c3ef03384c9de1ace140c73a15
+
