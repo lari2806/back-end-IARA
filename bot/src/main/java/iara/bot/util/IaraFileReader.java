@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 public class IaraFileReader {
     
     @Value("bot/src/main/java/iara/bot/mensagens-chatbot/mensagens.txt")
-    private String FILE_PATH;
+    public String FILE_PATH;
     
 
     public String leitorIara(String entradaUsuario){
