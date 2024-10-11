@@ -1,6 +1,6 @@
 # Comprimentos
-user: Ola
-Iara: Ola! Eu sou o Iara. Como posso ajudar você hoje?
+user: Olá
+Iara: Olá! Eu sou o Iara. Como posso ajudar você hoje?
 
 user: Bom dia
 Iara: Bom dia, Como posso ajuda-lo hoje?
@@ -20,31 +20,31 @@ Iara: Tchau! Tenha um ótimo dia!
 user: Até mais
 Iara: Até mais! Volte sempre que precisar.
 
-user: Como voce esta?
-Iara: Estou bem, como voce se sente hoje?
+user: Como você esta?
+Iara: Estou bem, como você se sente hoje?
 
-user: Eu tenho uma duvida
-Iara: Claro! Qual sua duvida?
+user: Eu tenho uma dúvida
+Iara: Claro! Qual sua dúvida?
 
-user: Estou com uma duvida
-Iara: Claro! Qual sua duvida?
+user: Estou com uma dúvida
+Iara: Claro! Qual sua dúvida?
 
 user: Qual sua utilidade?
 Iara: Sou o sistema Iara, com o intuito de ajudar e apoiar pessoas vitimas de violencia, tanto fisicas quanto verbais. Tendo seu foco voltado principalmente para mulheres e pessoas da comunidade LGBTQIA+.
 
-user: Para que voce serve?
+user: Para que você serve?
 Iara: Sou o sistema Iara, com o intuito de ajudar e apoiar pessoas vitimas de violencia, tanto fisicas quanto verbais. Tendo seu foco voltado principalmente para mulheres e pessoas da comunidade LGBTQIA+.
 
-user: Quero saber mais sobre voce
+user: Quero saber mais sobre você
 Iara: Sou o sistema Iara, com o intuito de ajudar e apoiar pessoas vitimas de violencia, tanto fisicas quanto verbais. Tendo seu foco voltado principalmente para mulheres e pessoas da comunidade LGBTQIA+.
 
-user: Fale mais sobre voce
+user: Fale mais sobre você
 Iara: meu nome e Iara, sou um sistema que tem o intuito de ajudar e apoiar pessoas vitimas de violencia, tanto fisicas quanto verbais. Tendo seu foco voltado principalmente para mulheres e pessoas da comunidade LGBTQIA+.
 
 user: Tudo bem?
-Iara: estou bem e voce?
+Iara: estou bem e você?
 
-### duvidas
+### dúvidas
 user: Quais sao as leis mais conhecidas?
 Iara: A lei Maria da Penha...
 
@@ -55,34 +55,182 @@ Iara: A lei Maria da Penha...
 # Lei Maria da Penha 
 
 user: gostaria de saber sobre a lei Maria da Penha
-Iara: Claro, a lei 11.340 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que voce deseja por gentileza.
+Iara: Claro, a lei 11.340 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que você deseja por gentileza.
 
 user: gostaria de saber sobre a lei 11.340
-Iara: Claro, a lei 11.340 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que voce deseja por gentileza.
+Iara: Claro, a lei 11.340 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que você deseja por gentileza.
 
 user: fale sobre a lei Maria da Penha
-Iara: Claro, a lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que voce deseja por gentileza.
+Iara: Claro, a lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que você deseja por gentileza.
 
 user: fale sobre a lei 11.340
-Iara: Claro, a lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que voce deseja por gentileza.
+Iara: Claro, a lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que você deseja por gentileza.
 
-user: tenho duvidas sobre a lei Maria da Penha
-Iara: A lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que voce deseja por gentileza.
+user: tenho dúvidas sobre a lei Maria da Penha
+Iara: A lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que você deseja por gentileza.
+
+user: diga sobre a lei Maria da Penha 
+Iara: A lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que você deseja por gentileza.
+
+user: diga sobre a lei 11.340 
+Iara: A lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que você deseja por gentileza.
+
+user: O que diz a lei Maria da Penha
+Iara: A lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que você deseja por gentileza.
+
+user: o que diz a lei 11.340
+Iara: A lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que você deseja por gentileza.
+
+user: nao sei sobre a lei Maria da Penha 
+Iara: A lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que você deseja por gentileza.
+
+user: nao sei sobre a lei 11.340
+Iara: A lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que você deseja por gentileza.
+
+user: o que e a lei Maria da Penha?
+Iara: A lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que você deseja por gentileza.
+
+user: o que e a lei 11.340?
+Iara: A lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que você deseja por gentileza.
+
+user: Gostaria de saber sobre a Lei Maria da Penha.
+Iara: A lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que você deseja por gentileza.
+
+user: Você pode me explicar a Lei Maria da Penha?
+Iara: Claro, Iara: A lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que voce deseja por gentileza.
 
 
+user: Quais são os direitos garantidos pela Lei Maria da Penha?
+Iara: Nesta lei há algumas medidas protetivas, sendo elas o afastamento do agressor do lar, a proibição de contato, a transferência da vítima e de seus dependentes a um abrigo especializado ou a inclusão em programa oficial de proteção.
+
+user: Como a Lei Maria da Penha protege as mulheres?
+Iara: A Lei Maria da Penha protege as mulheres ao criminalizar ações de violência, garantindo que elas possam buscar ajuda legal e proteção. As vítimas podem solicitar medidas protetivas e a lei prevê que a polícia e o sistema judiciário devem agir rapidamente para protegê-las.
+
+user: Quais são as punições previstas na Lei Maria da Penha?
+Iara: As punições previstas variam conforme a gravidade da violência, que pode ser física, psicológica, sexual, patrimonial ou moral. As penas podem incluir prisão e medidas restritivas.
+
+user: A Lei Maria da Penha é aplicada em todos os casos de violência doméstica?
+Iara: A lei é aplicada em diversos casos de violência doméstica, mas a violência deve ocorrer no âmbito familiar ou em relações íntimas. Também se aplica a relacionamentos homoafetivos.
+
+user: A Lei Maria da Penha tem alguma relação com outras leis de proteção à mulher?
+Iara: A Lei Maria da Penha complementa outras legislações, como a Lei do Feminicídio e a Lei de Crimes de Tortura, fortalecendo a rede de proteção às mulheres.
+
+user: Como a Lei Maria da Penha se compara a outras leis de violência contra a mulher no mundo?
+Iara:  A Lei Maria da Penha é considerada uma das legislações mais avançadas do mundo no combate à violência contra a mulher, inspirando outros países a adotarem legislações semelhantes.
+
+user: Como posso usar a Lei Maria da Penha para me proteger?
+Iara: Para se proteger, a vítima deve procurar uma Delegacia da Mulher ou outro órgão de segurança para registrar a ocorrência e solicitar medidas protetivas. É importante também buscar apoio psicológico e social.
+
+user: O que devo fazer se precisar da Lei Maria da Penha?
+Iara: Os casos de violência podem ser denunciados através do telefone 180, que é um serviço nacional de atendimento à mulher.
+
+user: Em que situações a Lei Maria da Penha pode ser acionada?
+Iara: A Lei Maria da Penha pode ser acionada em casos de violência física, psicológica, sexual, patrimonial ou moral, ocorrendo no âmbito doméstico ou em relacionamentos íntimos. Isso inclui situações de agressão, ameaças, controle financeiro e abusos emocionais.
+
+user: Qual é a origem da Lei Maria da Penha?
+Iara: A lei foi criada em resposta à luta de Maria da Penha Maia Fernandes, que sofreu agressões do marido por anos e se tornou um símbolo da luta contra a violência de gênero. Após sua luta por justiça e a demora na punição do agressor, a legislação foi proposta para proteger outras mulheres em situações similares.
+
+user: qual a historia da lei maria da penha?
+Iara: A lei foi criada em resposta à luta de Maria da Penha Maia Fernandes, que sofreu agressões do marido por anos e se tornou um símbolo da luta contra a violência de gênero. Após sua luta por justiça e a demora na punição do agressor, a legislação foi proposta para proteger outras mulheres em situações similares.
+
+user: Por que a Lei Maria da Penha é importante?
+Iara: A lei é fundamental porque oferece proteção legal às mulheres vítimas de violência, criando um sistema de suporte e medidas que visam prevenir a continuidade da violência, além de promover a conscientização sobre a gravidade da questão.
+
+user: Quem foi Maria da Penha e por que a lei tem esse nome?
+Iara: Maria da Penha é uma mulher que, após sofrer várias agressões por parte de seu marido, lutou por justiça durante mais de duas décadas. Sua história resultou na criação da lei que leva seu nome, simbolizando a resistência e a busca por direitos das mulheres.
+
+user: A Lei Maria da Penha se aplica a homens em situações de violência doméstica?
+Iara:A Lei Maria da Penha não se aplica a homens como vítimas em situações de violência doméstica, pois foi criada para proteger as mulheres. No entanto, homens também podem ser vítimas de violência, e outras legislações podem ser acionadas.
+
+user: A Lei Maria da Penha pode ser aplicada em relacionamentos homoafetivos?
+Iara: Sim, a Lei Maria da Penha se aplica a relacionamentos homoafetivos. A legislação reconhece a violência de gênero independentemente da orientação sexual, oferecendo proteção a todas as mulheres.
+
+user: Como denunciar um caso com base na Lei Maria da Penha?
+Iara: Para denunciar, a vítima deve procurar uma Delegacia da Mulher, registrar a ocorrência e solicitar medidas protetivas. Também é possível fazer a denúncia pelo telefone 180, que é um serviço nacional de atendimento.
+
+user: Pode me dar exemplos de como a Lei Maria da Penha foi aplicada?
+Iara: Casos em que a Lei Maria da Penha foi aplicada incluem situações de agressões físicas em casa, ameaças constantes e controle financeiro que impedem a autonomia da mulher. Há relatos de ações judiciais em que as vítimas conseguiram medidas protetivas efetivas.
+
+user: Quais são os casos mais famosos envolvendo a Lei Maria da Penha?
+Iara:Casos famosos envolvendo a Lei Maria da Penha incluem histórias de mulheres que conseguiram proteção e justiça após sofrerem violência. Algumas dessas histórias ganharam destaque na mídia e ajudaram a sensibilizar a sociedade sobre o problema.
+
+user: A Lei Maria da Penha sofreu alguma atualização recente?
+Iara: A Lei Maria da Penha sofreu atualizações, incluindo o reconhecimento do feminicídio como uma forma de violência de gênero e a ampliação das medidas protetivas. Mudanças visam fortalecer o combate à violência e melhorar a proteção às vítimas.
+
+user: A Lei Maria da Penha mudou ao longo dos anos?
+Iara: Desde sua criação, a Lei Maria da Penha passou por modificações para se adaptar às novas realidades e aumentar sua eficácia, sempre com o objetivo de garantir mais segurança e proteção às mulheres.
+
+user: Como posso buscar proteção com base na Lei Maria da Penha?  
+Iara: Você pode buscar proteção solicitando medidas protetivas em uma delegacia especializada ou diretamente ao juiz. Isso inclui o afastamento do agressor e outras medidas de segurança.
+
+user: O que acontece depois de uma denúncia com base na Lei Maria da Penha?  
+Iara: Após a denúncia, o agressor pode ser intimado, e medidas protetivas podem ser emitidas para garantir a segurança da vítima. O caso é investigado e, se houver provas, pode levar a um processo judicial.
+
+user: Quem pode solicitar as medidas protetivas previstas pela Lei Maria da Penha?  
+Iara: Qualquer mulher vítima de violência doméstica e familiar pode solicitar medidas protetivas. Em alguns casos, terceiros, como familiares ou o Ministério Público, também podem pedir em nome da vítima.
+
+user: Quais são os tipos de proteção oferecidos pela Lei Maria da Penha?  
+Iara: A lei oferece diversas proteções, incluindo o afastamento do agressor, a proibição de contato, a mudança de domicílio da vítima, e a suspensão da posse de armas do agressor.
+
+user: A Lei Maria da Penha também protege vítimas de violência psicológica?  
+Iara: Sim, a violência psicológica, como ameaças, humilhações e manipulações emocionais, é prevista pela Lei Maria da Penha e pode resultar em medidas protetivas e punições ao agressor.
+
+user: Como faço para registrar uma denúncia anônima com base na Lei Maria da Penha?  
+Iara: Você pode registrar uma denúncia anônima ligando para a Central de Atendimento à Mulher, através do número 180, ou informando à polícia, que investigará o caso sem expor a sua identidade.
+
+user: A Lei Maria da Penha protege mulheres em relacionamentos homoafetivos?  
+Iara: Sim, a lei se aplica a qualquer mulher que seja vítima de violência doméstica e familiar, independentemente do tipo de relacionamento ou orientação sexual.
+
+user: A Lei Maria da Penha protege mulheres trans?  
+Iara: Sim, em recentes decisões, mulheres trans também passaram a ser protegidas pela Lei Maria da Penha, quando vítimas de violência no contexto doméstico ou familiar.
+
+user: Quais são os serviços de apoio oferecidos pela Lei Maria da Penha?  
+Iara: A lei prevê o apoio psicológico, social e jurídico para as vítimas de violência doméstica, além de abrigos e casas de apoio para mulheres em situação de risco.
+
+user: Qual é o papel da polícia na aplicação da Lei Maria da Penha?  
+Iara: A polícia é responsável por receber as denúncias, emitir medidas protetivas urgentes e garantir que o agressor cumpra essas medidas. Também investiga e encaminha o caso para a Justiça.
+
+user: Posso processar o agressor por danos morais e materiais pela Lei Maria da Penha?  
+Iara: Sim, além do processo criminal, a vítima pode entrar com ações civis para pedir indenizações por danos morais, materiais e psicológicos causados pelo agressor.
+
+user: Existe prescrição para crimes cometidos com base na Lei Maria da Penha?  
+Iara: Sim, como em qualquer crime, há prazos de prescrição para os crimes previstos na Lei Maria da Penha, mas esses prazos variam conforme a gravidade da infração cometida.
+
+user: O agressor pode ser obrigado a participar de programas de reabilitação?  
+Iara: Sim, a Lei Maria da Penha permite que o agressor seja encaminhado a programas de reabilitação e educação, com o objetivo de prevenir a reincidência de violência.
+
+user: O que é considerado descumprimento de medidas protetivas na Lei Maria da Penha?  
+Iara: Descumprimento inclui qualquer ação do agressor que vá contra as ordens judiciais, como tentar se aproximar ou entrar em contato com a vítima. Isso pode resultar em prisão imediata.
+
+user: A Lei Maria da Penha se aplica a outros membros da família, além do parceiro?  
+Iara: Sim, a lei se aplica a qualquer membro da família que pratique violência contra a mulher, como pais, irmãos, ou outros parentes com quem ela conviva ou tenha uma relação familiar.
+
+user: Como a Lei Maria da Penha influencia a guarda dos filhos em casos de violência?  
+Iara: A lei pode influenciar a decisão de guarda, podendo restringir ou suspender os direitos do agressor sobre os filhos para proteger as crianças e a mulher.
+
+user: O que acontece se o agressor for reincidente?  
+Iara: Em casos de reincidência, o agressor pode enfrentar penas mais severas, incluindo o aumento da pena de prisão e a intensificação das medidas de segurança para a vítima.
+
+user: Como a Lei Maria da Penha interage com outras leis de proteção à mulher?  
+Iara: A Lei Maria da Penha complementa outras leis de proteção à mulher, como a Lei do Feminicídio, reforçando a luta contra a violência de gênero e garantindo mais direitos às vítimas.
+
+user: Existe um prazo para a vítima denunciar com base na Lei Maria da Penha?  
+Iara: Não há um prazo específico para a vítima denunciar, mas é importante agir rapidamente para garantir a aplicação das medidas protetivas e evitar novos episódios de violência.
 
 #emergencia
 user: Preciso de ajuda
 Iara: Claro! Estou aqui para ajudar. Qual é a sua dúvida?
 
 user: Pode me ajudar?
-Iara: Claro, qual sua duvida?
+Iara: Claro, qual sua dúvida?
 
 user: Como faço para resetar minha senha?
 Iara: Para resetar sua senha, acesse a página de recuperação de senha e siga as instruções.
 
 user: Onde encontro o suporte técnico?
 Iara: Voce pode encontrar o suporte técnico no nosso site, na seção de "Contato".
+
+
 
 #ajuda
 

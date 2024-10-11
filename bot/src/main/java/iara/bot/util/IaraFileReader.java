@@ -38,6 +38,6 @@ public class IaraFileReader {
             e.printStackTrace();
             
         }
-        return "entrada invalida";
+        return "Desculpe não consegui entender o que você quis dizer, tente novamente.";
     }
 }
