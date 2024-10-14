@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: rgb(79, 166, 247);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .chat-container {
-    background: #fff;
+    background: rgb(156, 191, 223);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -39,12 +39,12 @@ body {
 
 .message.user {
     text-align: right;
-    color: blue;
+    color: rgb(204, 0, 255);
 }
 
 .message.bot {
     text-align: left;
-    color: green;
+    color: rgb(44, 9, 77);
 }
 
 #userInput {
