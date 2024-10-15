@@ -13,22 +13,24 @@ public class IaraFileReader {
     
     @Value("bot/src/main/java/iara/bot/mensagens-chatbot/mensagens.txt")
     public String FILE_PATH;
-    
 
     public String leitorIara(String entradaUsuario){
-        File file = new File(FILE_PATH);
+        entradaUsuario = RemoverAcentos.remover(entradaUsuario.toLowerCase());
 
+        File file = new File(FILE_PATH);
         System.out.println("Caminho do arquivo " + FILE_PATH);
 
         try(Scanner reader = new Scanner(file);){
 
         while(reader.hasNextLine()){
             String linha = reader.nextLine();
-            
-            if (linha.startsWith("user:") && linha.toLowerCase().contains(entradaUsuario)) {
+            String linhaSemAcento = RemoverAcentos.remover(linha);
+
+            if (linhaSemAcento.startsWith("user:") && linhaSemAcento.toLowerCase().contains(entradaUsuario)) {
                 if (reader.hasNextLine()) {
                     String resposta = reader.nextLine();
-                    return resposta;
+                    String respostaSemAcento = RemoverAcentos.remover(resposta);
+                    return respostaSemAcento;
                 }
             }
         }   
