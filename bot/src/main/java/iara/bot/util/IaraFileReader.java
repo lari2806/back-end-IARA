@@ -28,9 +28,8 @@ public class IaraFileReader {
 
             if (linhaSemAcento.startsWith("user:") && linhaSemAcento.toLowerCase().contains(entradaUsuario)) {
                 if (reader.hasNextLine()) {
-                    String resposta = reader.nextLine();
-                    String respostaSemAcento = RemoverAcentos.remover(resposta);
-                    return respostaSemAcento;
+                    String resposta = reader.nextLine();   
+                    return resposta;
                 }
             }
         }   
