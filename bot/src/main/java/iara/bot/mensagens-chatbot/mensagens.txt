@@ -49,8 +49,17 @@ Iara: estou bem e você?
 user: Quais são as leis mais conhecidas?
 Iara: A lei Maria da Penha...
 
+user: tenho dúvidas se o que aconteceu comigo é crime
+Iara: o que ocorreu com você?
 
+user: onde posso buscar ajuda?
+Iara: você pode ligar para 180 em caso de atendimento a mulher, para casos de denúncias você pode ligar para o número 181. Também é possivel ir para os locais de apoios mais próximos.
 
+user: Preciso de ajuda
+Iara: Claro! Estou aqui para ajudar. Qual é a sua dúvida?
+
+user: Pode me ajudar?
+Iara: Claro, qual sua dúvida?
 
 
 
@@ -413,12 +422,6 @@ Iara: As perspectivas incluem maior conscientização, melhoria na aplicação d
 
 
 #emergencia
-user: Preciso de ajuda
-Iara: Claro! Estou aqui para ajudar. Qual é a sua dúvida?
-
-user: Pode me ajudar?
-Iara: Claro, qual sua dúvida?
-
 user: Como faço para resetar minha senha?
 Iara: Para resetar sua senha, acesse a página de recuperação de senha e siga as instruções.
 
