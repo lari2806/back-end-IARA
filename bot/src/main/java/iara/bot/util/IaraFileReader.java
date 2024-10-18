@@ -20,19 +20,11 @@ public class IaraFileReader {
     public String leitorIara(String entradaUsuario) {
         
         entradaUsuario = RemoverAcentos.remover(entradaUsuario.toLowerCase());
+        
+        String palavraChave = encontrarPalavra(entradaUsuario);
 
-        String[] palavrasUsuario = entradaUsuario.split("\\s+");
-
-        String palavraChaveEncontrada = null;
-        for (String palavra : palavrasUsuario) {
-            if (palavrasChave.contains(palavra)) {
-                palavraChaveEncontrada = palavra;
-                break;
-            }
-        }
-
-        if (palavraChaveEncontrada == null) {
-             System.out.println("Desculpe, não consegui identificar a palavra-chave. Tente ser mais específico.");
+        if (palavraChave == null) {
+            System.out.println("Palavra chave não foi encontrada");
         }
 
         File file = new File(filePath);
@@ -43,7 +35,7 @@ public class IaraFileReader {
                 String linha = reader.nextLine();
                 String linhaSemAcento = RemoverAcentos.remover(linha.toLowerCase());
 
-                if (linhaSemAcento.startsWith("user:") && linhaSemAcento.contains(palavraChaveEncontrada) || linhaSemAcento.contains(entradaUsuario)) {
+                if (linhaSemAcento.startsWith("user:") && palavraChave != null && linhaSemAcento.contains(palavraChave) || linhaSemAcento.contains(entradaUsuario)) {
 
                     if (reader.hasNextLine()) {
                         String resposta = reader.nextLine().trim();
@@ -62,8 +54,8 @@ public class IaraFileReader {
         return "Desculpe, não consegui encontrar uma resposta para sua pergunta. Tente novamente.";
     }
 
-    private String encontrarPalavra(String entradaUsuario){
-        public Set<String> palavrasChave = new HashSet<>(Arrays.asList("duvida", "pergunta", "ajuda"));
+    public String encontrarPalavra(String entradaUsuario){
+        final Set<String> palavrasChave = new HashSet<>(Arrays.asList("duvida", "pergunta", "ajuda"));
 
         String[] palavrasUsuario = entradaUsuario.split("\\s+");
 
@@ -78,6 +70,8 @@ public class IaraFileReader {
         if (palavraChaveEncontrada == null) {
              System.out.println("Desculpe, não consegui identificar a palavra-chave. Tente ser mais específico.");
         }
+
+        return palavraChaveEncontrada;
 
     }
 }
