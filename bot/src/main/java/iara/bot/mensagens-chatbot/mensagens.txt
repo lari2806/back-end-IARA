@@ -3,6 +3,9 @@
 user: Olá
 Iara: Olá! Eu sou a Iara. Como posso ajudar você hoje?
 
+user: Ola bom dia
+Iara: Olá bom dia! Eu sou a Iara. Como posso ajudar você hoje?
+
 user: Bom dia
 Iara: Bom dia, Como posso ajuda-lo hoje?
 
@@ -132,7 +135,7 @@ Iara: Claro, A lei 11.340/2006 ou Maria da Penha trata sobre a violência domés
 user: Você pode me explicar a Lei 11.340/2006?
 Iara: Claro, A lei 11.340/2006 ou Maria da Penha trata sobre a violência doméstica e familiar contra a mulher era tratada como crime de menor potencial ofensivo e enquadrada na Lei n. 9.099/1995. Deseja saber mais sobre essa lei? Repita a lei que voce deseja por gentileza.
 
-user: Quais são os direitos garantidos pela Lei Maria da Penha?
+user: Quais sao os direitos garantidos pela Lei Maria da Penha?
 Iara: Nesta lei há algumas medidas protetivas, sendo elas o afastamento do agressor do lar, a proibição de contato, a transferência da vítima e de seus dependentes a um abrigo especializado ou a inclusão em programa oficial de proteção.
 
 user: Me explique a Lei Maria da Penha
@@ -150,6 +153,12 @@ Iara: Nesta lei há algumas medidas protetivas, sendo elas o afastamento do agre
 user: Como a Lei Maria da Penha protege as mulheres?
 Iara: A Lei Maria da Penha protege as mulheres ao criminalizar ações de violência, garantindo que elas possam buscar ajuda legal e proteção. As vítimas podem solicitar medidas protetivas e a lei prevê que a polícia e o sistema judiciário devem agir rapidamente para protegê-las.
 
+<<<<<<< HEAD
+user: Quais sao as punicoes previstas na Lei Maria da Penha?
+Iara: As punições previstas variam conforme a gravidade da violência, que pode ser física, psicológica, sexual, patrimonial ou moral. As penas podem incluir prisão e medidas restritivas.
+
+user: A Lei Maria da Penha e aplicada em todos os casos de violencia domestica?
+=======
 user: Como a Lei Maria da Penha me protege?
 Iara: A Lei Maria da Penha protege as mulheres ao criminalizar ações de violência, garantindo que elas possam buscar ajuda legal e proteção. As vítimas podem solicitar medidas protetivas e a lei prevê que a polícia e o sistema judiciário devem agir rapidamente para protegê-las.
 
@@ -160,6 +169,7 @@ user: Quais são as punições ao agressor na Lei Maria da Penha?
 Iara: As punições previstas variam conforme a gravidade da violência, que pode ser física, psicológica, sexual, patrimonial ou moral. As penas podem incluir prisão e medidas restritivas.
 
 user: A Lei Maria da Penha é aplicada em todos os casos de violência doméstica?
+>>>>>>> 0511321797d112da528b4f4660dd5fa33cb8d532
 Iara: A lei é aplicada em diversos casos de violência doméstica, mas a violência deve ocorrer no âmbito familiar ou em relações íntimas. Também se aplica a relacionamentos homoafetivos.
 
 user: A Lei Maria da Penha tem alguma relação com outras leis de proteção à mulher?
@@ -623,6 +633,15 @@ Iara: Voce pode encontrar o suporte técnico no nosso site, na seção de "Conta
 #ajuda
 
 user: Locais de apoio
+Iara: Não possuo essas informações ainda.
+
+user: quais os locais de apoio mais proximos
+Iara: Não possuo essas informações ainda.
+
+user: Locais de apoio mais proximos
+Iara: Não possuo essas informações ainda.
+
+user: quero saber os locais de apoio mais proximos
 Iara: Não possuo essas informações ainda.
 
 user: gostaria de saber sobre a lei 1234
