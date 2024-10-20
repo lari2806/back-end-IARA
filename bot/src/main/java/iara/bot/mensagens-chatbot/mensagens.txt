@@ -1,10 +1,6 @@
 # Comprimentos
-<<<<<<< HEAD
-user: Ola
-=======
 
 user: Olá
->>>>>>> 0511321797d112da528b4f4660dd5fa33cb8d532
 Iara: Olá! Eu sou a Iara. Como posso ajudar você hoje?
 
 user: Ola bom dia
