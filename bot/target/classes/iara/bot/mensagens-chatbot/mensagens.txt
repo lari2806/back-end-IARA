@@ -46,8 +46,22 @@ user: Tudo bem?
 Iara: estou bem e você?
 
 ### dúvidas
+
+
+User: Qual é o horário de funcionamento?
+Iara: Nosso sistema de chat com Iara funciona 24 horas, para ser atendido por um profissional é necessário o agendamento.
+
+User: Você pode me dar mais informações sobre o sistema Iara?
+Iara: Meu nome é Iara, com o intuito de ajudar e apoiar pessoas vítimas de vi, tanto fisicas quanto verbais. Tendo seu foco voltado principalmente para mulheres e pessoas da comunidade LGBTQIA+.
+
+User: Como faço para falar com o suporte?
+Iara: Para entrar em contato conosco, basta acessar nosso contato no whatsApp: 85999059763.
+
+
 user: Quais são as leis mais conhecidas?
-Iara: A lei Maria da Penha...
+Iara:As Leis de Proteção contra Violência à Mulher no Brasil: Lei Maria da Penha (Lei nº 11.340/2006), Lei do Feminicídio (Lei nº 13.104/2015) Lei de Importunação Sexual (Lei nº 13.718/2018).Leis de Proteção à Comunidade LGBTQIA+ no Brasil: Criminalização da Homofobia e Transfobia (Decisão do STF, 2019), Resolução nº 175/2013 do CNJ (Casamento Civil Igualitário).
+
+
 
 user: tenho dúvidas se o que aconteceu comigo é crime
 Iara: o que ocorreu com você?
@@ -267,6 +281,13 @@ Iara: Não há um prazo específico para a vítima denunciar, mas é importante 
 
 
 
+
+
+
+
+
+
+
 #lei Carolina dieckman
 user: O que é a Lei Carolina Dieckman?
 Iara: A Lei Carolina Dieckman, formalmente conhecida como Lei 12.737/2012, é uma legislação brasileira que criminaliza a invasão de dispositivos informáticos para obtenção, adulteração ou destruição de dados sem autorização.
@@ -408,6 +429,175 @@ Iara: Até o momento, a lei não passou por alterações significativas, mas o d
 
 user: quais são as perspectivas futuras para a aplicação da Lei Carolina Dieckman?
 Iara: As perspectivas incluem maior conscientização, melhoria na aplicação da lei e potencial expansão para abranger outras formas de violência digital
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Lei do Feminicídio
+
+User: O que é a Lei do Feminicídio?
+Iara: A Lei do Feminicídio (Lei nº 13.104/2015) é uma legislação que altera o Código Penal para incluir o feminicídio como uma circunstância qualificadora do crime de homicídio. Ela define feminicídio como o assassinato de uma mulher em razão de violência doméstica, familiar ou por discriminação de gênero.
+
+User: Qual a pena prevista para o feminicídio?
+Iara: A pena para o feminicídio é de 12 a 30 anos de reclusão. Em algumas circunstâncias, como crimes cometidos durante a gestação, contra menores de 14 anos, maiores de 60 anos ou na presença de familiares, a pena pode ser agravada.
+
+User: Quais são os casos que caracterizam feminicídio?
+Iara: O feminicídio ocorre quando uma mulher é assassinada por razões de gênero, ou seja, em situações de violência doméstica, familiar, ou em decorrência do ódio ou menosprezo à condição de ser mulher. Crimes relacionados a abuso, controle ou dominação sobre a vítima também podem caracterizar feminicídio.
+
+User: Qual é a diferença entre homicídio e feminicídio?
+Iara: A principal diferença é que o feminicídio é um homicídio praticado especificamente contra mulheres em razão do gênero, enquanto o homicídio, de maneira geral, não faz distinção de gênero. O feminicídio tem agravantes devido ao contexto de violência de gênero.
+
+User: Em que situações a Lei do Feminicídio se aplica?
+Iara: A Lei do Feminicídio se aplica em casos de homicídio que envolvem violência de gênero, como violência doméstica e familiar, ou em situações de discriminação e ódio contra mulheres. Ela protege as vítimas e agrava a pena do agressor nesses casos.
+
+User: Quando a Lei do Feminicídio foi sancionada?
+Iara: A Lei do Feminicídio foi sancionada em 9 de março de 2015 pela então presidente Dilma Rousseff.
+
+User: Feminicídio é crime hediondo?
+Iara: Sim, o feminicídio é classificado como crime hediondo, o que significa que é considerado um crime grave, com punições mais severas e regime inicial de cumprimento da pena em regime fechado.
+
+User: Como a Lei do Feminicídio protege as mulheres?
+Iara: A Lei do Feminicídio agrava a pena para homicídios praticados contra mulheres em razão de gênero, buscando coibir a violência doméstica e o assassinato de mulheres por discriminação ou desprezo à condição feminina.
+
+User: Feminicídio pode ser aplicado em caso de violência psicológica?
+Iara: A violência psicológica por si só não caracteriza feminicídio, mas se houver homicídio associado a essa violência, a motivação de gênero pode levar à aplicação da Lei do Feminicídio.
+
+User: A Lei do Feminicídio se aplica a todos os homicídios contra mulheres?
+Iara: Não. A Lei do Feminicídio só se aplica quando o homicídio ocorre em razão do gênero, ou seja, quando o assassinato é motivado por violência doméstica, familiar ou discriminação de gênero.
+
+User: Quais fatores aumentam a pena no caso de feminicídio?
+Iara: A pena pode ser aumentada se o crime for praticado contra mulheres gestantes, menores de 14 anos, maiores de 60 anos, ou com deficiência, ou ainda se for cometido na presença de descendentes ou ascendentes da vítima.
+
+User: Feminicídio pode ser cometido por mulheres?
+Iara: Tecnicamente sim, uma mulher pode cometer feminicídio, desde que o crime tenha como motivação o ódio ou menosprezo à condição de ser mulher.
+
+User: Feminicídio pode ocorrer fora do ambiente doméstico?
+Iara: Sim, o feminicídio pode ocorrer fora do ambiente doméstico, desde que a motivação seja a discriminação de gênero ou violência em razão da condição de ser mulher.
+
+User: O que a Lei do Feminicídio mudou no Código Penal?
+Iara: A Lei do Feminicídio acrescentou o feminicídio como uma qualificadora do crime de homicídio, aumentando a pena e reconhecendo esse tipo de crime como uma forma específica de violência de gênero.
+
+User: Existe um tipo de feminicídio que não é relacionado à violência doméstica?
+Iara: Sim, o feminicídio também pode ocorrer fora do contexto de violência doméstica, quando motivado por ódio ou discriminação de gênero, como em casos de crimes de ódio contra mulheres.
+
+User: Feminicídio se aplica a mulheres trans?
+Iara: Em 2020, o Superior Tribunal de Justiça (STJ) decidiu que o feminicídio também pode ser aplicado a mulheres transgênero, reconhecendo a proteção do gênero feminino independentemente do sexo biológico.
+
+User: Qual a importância da Lei do Feminicídio no combate à violência?
+Iara: A Lei do Feminicídio é importante porque reconhece a gravidade da violência de gênero, cria uma tipificação específica para homicídios motivados por discriminação de gênero e agrava as penas para esses crimes.
+
+User: Feminicídio é um tipo de homicídio qualificado?
+Iara: Sim, o feminicídio é uma forma de homicídio qualificado, o que significa que ele é considerado mais grave e tem penas mais severas.
+
+User: Feminicídio pode ser cometido por alguém que não conhece a vítima?
+Iara: Sim, o feminicídio pode ser cometido por desconhecidos, desde que o crime tenha como motivação o ódio ou discriminação contra a vítima por ela ser mulher.
+
+User: O feminicídio pode ser considerado premeditado?
+Iara: Sim, o feminicídio pode ser premeditado, mas também pode ocorrer sem premeditação, dependendo do contexto em que o crime ocorre.
+
+User: Como denunciar casos de feminicídio?
+Iara: Casos de feminicídio ou risco de feminicídio podem ser denunciados através da Central de Atendimento à Mulher (Disque 180) ou nas delegacias especializadas em atendimento à mulher.
+
+User: Feminicídio é a mesma coisa que violência doméstica?
+Iara: Não, feminicídio é uma forma extrema de violência contra a mulher que resulta em sua morte, enquanto violência doméstica engloba diversas formas de abuso, como violência física, psicológica, sexual e patrimonial.
+
+User: O feminicídio pode ser cometido em contexto de relacionamento amoroso?
+Iara: Sim, o feminicídio frequentemente ocorre em contextos de relacionamentos amorosos, especialmente em situações de violência doméstica ou controle possessivo.
+
+User: O feminicídio sempre ocorre após um histórico de violência?
+Iara: Não necessariamente. O feminicídio pode ocorrer sem um histórico prévio de violência, embora, em muitos casos, a vítima já tenha sofrido agressões anteriores.
+
+User: Feminicídio tem agravantes se for praticado contra uma mulher grávida?
+Iara: Sim, a pena para feminicídio pode ser agravada se o crime for praticado contra uma mulher grávida, devido à vulnerabilidade adicional da vítima.
+
+User: O agressor pode alegar defesa pessoal para feminicídio?
+Iara: Alegações de defesa pessoal podem ser feitas, mas serão analisadas cuidadosamente pela justiça. Em casos de feminicídio, a motivação por discriminação de gênero ou violência doméstica tende a invalidar essa justificativa.
+
+User: Feminicídio pode ocorrer no trabalho?
+Iara: Sim, o feminicídio pode ocorrer no ambiente de trabalho, desde que o homicídio seja motivado por discriminação ou ódio relacionado ao gênero da vítima.
+
+User: A Lei do Feminicídio se aplica a todas as idades?
+Iara: Sim, a Lei do Feminicídio se aplica a mulheres de todas as idades. Além disso, a pena pode ser agravada se a vítima for menor de 14 anos ou maior de 60 anos.
+
+User: Feminicídio pode ser cometido por um parente?
+Iara: Sim, feminicídio pode ser cometido por um parente, especialmente em contextos de violência doméstica ou familiar.
+
+User: A pena para feminicídio pode ser reduzida em algum caso?
+Iara: Em casos excepcionais, como a colaboração com as investigações, a pena pode ser atenuada, mas o feminicídio é um crime grave e normalmente não permite grandes reduções de pena.
+
+User: Feminicídio pode ser aplicado em caso de tentativa de homicídio?
+Iara: Não, a Lei do Feminicídio se aplica exclusivamente a homicídios consumados. Tentativas de homicídio contra mulheres são enquadradas em outras legislações, como a Lei Maria da Penha.
+
+User: Feminicídio pode ser enquadrado como lesão corporal seguida de morte?
+Iara: Se a intenção do agressor era matar a vítima por motivo de gênero, o crime será considerado feminicídio, mesmo que tenha começado como lesão corporal.
+
+User: A pena de feminicídio pode ser cumprida em liberdade?
+Iara: Não, por ser considerado um crime hediondo, o feminicídio exige que a pena seja cumprida inicialmente em regime fechado, sem possibilidade de fiança.
+
+User: Feminicídio pode ser cometido por vingança?
+Iara: Sim, se a vingança for motivada por fatores de gênero, como controle ou possessividade, o crime pode ser classificado como feminicídio.
+
+User: Feminicídio pode ser cometido em áreas rurais ou isoladas?
+Iara: Sim, o feminicídio pode ocorrer em qualquer local, inclusive em áreas rurais ou isoladas, desde que a motivação seja o gênero da vítima.
+
+User: Feminicídio pode ocorrer em comunidades indígenas?
+Iara: Sim, o feminicídio pode ocorrer em qualquer comunidade, inclusive em comunidades indígenas, e a lei se aplica igualmente em todos os casos.
+
+User: Feminicídio pode ser considerado crime de ódio?
+Iara: Sim, o feminicídio pode ser considerado um crime de ódio, especialmente quando motivado por misoginia ou desprezo pela condição feminina.
+
+User: Feminicídio pode ser praticado por alguém com distúrbios mentais?
+Iara: Se o autor do crime for considerado mentalmente incapaz, o caso será tratado de forma diferente, mas ainda pode ser enquadrado como feminicídio dependendo das circunstâncias.
+
+User: Feminicídio pode ser cometido por ciúmes?
+Iara: Sim, o feminicídio pode ser motivado por ciúmes, especialmente em situações de controle abusivo ou possessivo sobre a vítima.
+
+User: Feminicídio é comum em relações abusivas?
+Iara: Sim, muitas vezes o feminicídio é o desfecho trágico de relações
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
