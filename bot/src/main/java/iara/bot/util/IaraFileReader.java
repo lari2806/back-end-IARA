@@ -2,42 +2,76 @@ package iara.bot.util;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-
 @Component
 public class IaraFileReader {
-    
+
     @Value("bot/src/main/java/iara/bot/mensagens-chatbot/mensagens.txt")
-    public String FILE_PATH;
-    
+    private String filePath;
 
-    public String leitorIara(String entradaUsuario){
-        File file = new File(FILE_PATH);
 
-        System.out.println("Caminho do arquivo " + FILE_PATH);
+    public String leitorIara(String entradaUsuario) {
+        
+        entradaUsuario = RemoverAcentos.remover(entradaUsuario.toLowerCase());
+        
+        String palavraChave = encontrarPalavra(entradaUsuario);
 
-        try(Scanner reader = new Scanner(file);){
+        if (palavraChave == null) {
+            System.out.println("Palavra chave não foi encontrada");
+        }
 
-        while(reader.hasNextLine()){
-            String linha = reader.nextLine();
-            
-            if (linha.startsWith("user:") && linha.toLowerCase().contains(entradaUsuario)) {
-                if (reader.hasNextLine()) {
-                    String resposta = reader.nextLine();
-                    return resposta;
+        File file = new File(filePath);
+        System.out.println("Caminho do arquivo: " + filePath);
+
+        try (Scanner reader = new Scanner(file)) {
+            while (reader.hasNextLine()) {
+                String linha = reader.nextLine();
+                String linhaSemAcento = RemoverAcentos.remover(linha.toLowerCase());
+
+                if (linhaSemAcento.startsWith("user:") && palavraChave != null && linhaSemAcento.contains(palavraChave) || linhaSemAcento.contains(entradaUsuario)) {
+
+                    if (reader.hasNextLine()) {
+                        String resposta = reader.nextLine().trim();
+                        return resposta;
+                    }
                 }
             }
-        }   
-        reader.close(); 
-        }catch(FileNotFoundException e){    
-            System.out.println("Um erro ocorreu.");
+        } catch (FileNotFoundException e) {
+            System.out.println("Erro: Arquivo não encontrado.");
             e.printStackTrace();
-            
+        } catch (Exception e) {
+            System.out.println("Um erro ocorreu ao ler o arquivo.");
+            e.printStackTrace();
         }
-        return "Desculpe não consegui entender o que você quis dizer, tente novamente.";
+
+        return "Desculpe, não consegui encontrar uma resposta para sua pergunta. Tente novamente.";
+    }
+
+    public String encontrarPalavra(String entradaUsuario){
+        final Set<String> palavrasChave = new HashSet<>(Arrays.asList("duvida", "pergunta", "ajuda"));
+
+        String[] palavrasUsuario = entradaUsuario.split("\\s+");
+
+        String palavraChaveEncontrada = null;
+        for (String palavra : palavrasUsuario) {
+            if (palavrasChave.contains(palavra)) {
+                palavraChaveEncontrada = palavra;
+                break;
+            }
+        }
+
+        if (palavraChaveEncontrada == null) {
+             System.out.println("Desculpe, não consegui identificar a palavra-chave. Tente ser mais específico.");
+        }
+
+        return palavraChaveEncontrada;
+
     }
 }
