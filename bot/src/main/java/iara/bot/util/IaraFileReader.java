@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class IaraFileReader {
 
-    @Value("src/main/java/iara/bot/mensagens-chatbot/mensagens.txt")
+    @Value("bot/src/main/java/iara/bot/mensagens-chatbot/mensagens.txt")
     private String filePath;
 
 
@@ -33,12 +33,15 @@ public class IaraFileReader {
         try (Scanner reader = new Scanner(file)) {
             while (reader.hasNextLine()) {
                 String linha = reader.nextLine();
+                System.out.println(linha);
                 String linhaSemAcento = RemoverAcentos.remover(linha.toLowerCase());
+                System.out.println(linhaSemAcento);
 
                 if (linhaSemAcento.startsWith("user:") && palavraChave != null && linhaSemAcento.contains(palavraChave) || linhaSemAcento.contains(entradaUsuario)) {
 
                     if (reader.hasNextLine()) {
                         String resposta = reader.nextLine().trim();
+                        System.out.println(resposta);
                         return resposta;
                     }
                 }
