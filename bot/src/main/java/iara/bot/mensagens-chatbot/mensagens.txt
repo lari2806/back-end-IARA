@@ -1,5 +1,6 @@
 # Comprimentos
-
+user: oi 
+Iara: Olá! Eu sou a Iara. Como posso ajudar você hoje?
 user: Olá
 Iara: Olá! Eu sou a Iara. Como posso ajudar você hoje?
 
