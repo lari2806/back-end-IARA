@@ -30,7 +30,7 @@ public class IaraFileReader {
         File file = new File(filePath);
         System.out.println("Caminho do arquivo: " + filePath);
 
-        try (Scanner reader = new Scanner(file)) {
+        try (Scanner reader = new Scanner(file, "UTF-8")) {
             while (reader.hasNextLine()) {
                 String linha = reader.nextLine();
                 System.out.println(linha);
